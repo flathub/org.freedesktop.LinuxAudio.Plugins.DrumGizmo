@@ -69,12 +69,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "http://www.drumgizmo.org/releases/drumgizmo-0.9.18.1/drumgizmo-0.9.18.1.tar.gz",
-                    "sha256": "67a2d9d4aa11ee92f000cc8a49710408c2328b2581a5339be3cbfe91d99feb2e"
-                },
-                {
-                    "type": "patch",
-                    "path": "patches/dg-configure.patch"
+                    "url": "http://www.drumgizmo.org/releases/drumgizmo-0.9.19/drumgizmo-0.9.19.tar.gz",
+                    "sha256": "7426f38b58fbb82d3eada60c204d74e6c5de31ef424c017e3f890117e146a2a3"
                 },
                 {
                     "type": "shell",

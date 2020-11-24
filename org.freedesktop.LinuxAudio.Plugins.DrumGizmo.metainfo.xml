@@ -9,6 +9,17 @@
   <metadata_license>CC0-1.0</metadata_license>
   <update_contact>hub_AT_figuiere.net</update_contact>
   <releases>
+    <release date="2019-11-23" version="0.9.19">
+      <description>
+        <ul>
+          <li>Default midimaps now read from drumkit file.</li>
+          <li>Sample selection default values improved.</li>
+          <li>New powermap feature.</li>
+          <li>Add gettext support to plugin UI with French translation.</li>
+          <li>Per instrument voice limit feature.</li>
+        </ul>
+      </description>
+    </release>
     <release date="2019-10-15" version="0.9.18.1" />
   </releases>
 </component>
