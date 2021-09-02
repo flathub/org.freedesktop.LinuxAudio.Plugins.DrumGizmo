@@ -1,8 +1,8 @@
 {
     "id": "org.freedesktop.LinuxAudio.Plugins.DrumGizmo",
-    "branch": "20.08",
+    "branch": "21.08",
     "runtime": "org.freedesktop.LinuxAudio.BaseExtension",
-    "runtime-version": "20.08",
+    "runtime-version": "21.08",
     "sdk": "org.freedesktop.Sdk",
     "build-extension": true,
     "appstream-compose": false,
@@ -71,6 +71,10 @@
                     "type": "archive",
                     "url": "http://www.drumgizmo.org/releases/drumgizmo-0.9.19/drumgizmo-0.9.19.tar.gz",
                     "sha256": "7426f38b58fbb82d3eada60c204d74e6c5de31ef424c017e3f890117e146a2a3"
+                },
+                {
+                    "type": "patch",
+                    "path": "patches/drumgizmo-build.patch"
                 },
                 {
                     "type": "shell",
