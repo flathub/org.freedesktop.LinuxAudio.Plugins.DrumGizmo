@@ -1,0 +1,12 @@
+diff --git a/plugin/plugingizmo/plugin.h b/plugin/plugingizmo/plugin.h
+index 4c22943..04b5979 100644
+--- a/plugin/plugingizmo/plugin.h
++++ b/plugin/plugingizmo/plugin.h
+@@ -29,6 +29,7 @@
+ #include <vector>
+ #include <string>
+ 
++#include <cstdint>
+ #include <cstdlib>
+ 
+ 
