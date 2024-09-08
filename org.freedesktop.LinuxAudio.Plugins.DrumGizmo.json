@@ -1,11 +1,10 @@
 {
     "id": "org.freedesktop.LinuxAudio.Plugins.DrumGizmo",
-    "branch": "23.08",
+    "branch": "24.08",
     "runtime": "org.freedesktop.LinuxAudio.BaseExtension",
     "runtime-version": "stable",
-    "sdk": "org.freedesktop.Sdk//23.08",
+    "sdk": "org.freedesktop.Sdk//24.08",
     "build-extension": true,
-    "appstream-compose": false,
     "build-options": {
         "prepend-pkg-config-path": "/app/extensions/Plugins/DrumGizmo/lib/pkgconfig",
         "prefix": "/app/extensions/Plugins/DrumGizmo"
@@ -63,7 +62,6 @@
             "post-install": [
                 "strip ${FLATPAK_DEST}/lv2/*.lv2/*.so",
                 "install -Dm644 --target-directory=${FLATPAK_DEST}/share/metainfo org.freedesktop.LinuxAudio.Plugins.DrumGizmo.metainfo.xml",
-                "appstream-compose --basename=org.freedesktop.LinuxAudio.Plugins.DrumGizmo --prefix=${FLATPAK_DEST} --origin=flatpak org.freedesktop.LinuxAudio.Plugins.DrumGizmo",
                 "install -Dm644 -t $FLATPAK_DEST/share/licenses/drumgizmo COPYING"
             ],
             "sources": [
