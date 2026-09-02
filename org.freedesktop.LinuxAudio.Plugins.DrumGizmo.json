@@ -1,9 +1,9 @@
 {
     "id": "org.freedesktop.LinuxAudio.Plugins.DrumGizmo",
-    "branch": "25.08",
+    "branch": "26.08",
     "runtime": "org.freedesktop.LinuxAudio.BaseExtension",
     "runtime-version": "stable",
-    "sdk": "org.freedesktop.Sdk//25.08",
+    "sdk": "org.freedesktop.Sdk//26.08",
     "build-extension": true,
     "build-options": {
         "prepend-pkg-config-path": "/app/extensions/Plugins/DrumGizmo/lib/pkgconfig",
